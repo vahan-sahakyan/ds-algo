@@ -21,7 +21,7 @@ function getFirstRecurring(array) {
   return undefined;
 }
 
-console.log(getFirstRecurring([2, 5, 1, 2, 3, 5, 1, 2, 4]));
-console.log(getFirstRecurring([2, 1, 1, 2, 3, 5, 1, 2, 4]));
-console.log(getFirstRecurring([2, 5, 5, 2, 3, 5, 1, 2, 4]));
-console.log(getFirstRecurring([2, 3, 4, 5]));
+console.log(getFirstRecurring([2, 5, 1, 2, 3, 5, 1, 2, 4])); // 2
+console.log(getFirstRecurring([2, 1, 1, 2, 3, 5, 1, 2, 4])); // 1
+console.log(getFirstRecurring([2, 5, 5, 2, 3, 5, 1, 2, 4])); // 5
+console.log(getFirstRecurring([2, 3, 4, 5])); // undefined
