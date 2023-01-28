@@ -10,7 +10,8 @@
     "queue": "nodemon ./src/queue.js",
     "merge": "nodemon ./src/array-merge.js",
     "hash": "nodemon ./src/079-hashtable.js",
-    "google": "nodemon ./src/084-first-recurring.js"
+    "google": "nodemon ./src/084-first-recurring.js",
+    "tree": "nodemon ./src/tree.js"
   },
   "author": "",
   "license": "ISC",
