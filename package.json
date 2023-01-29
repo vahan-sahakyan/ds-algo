@@ -11,12 +11,14 @@
     "merge": "nodemon ./src/array-merge.js",
     "hash": "nodemon ./src/079-hashtable.js",
     "google": "nodemon ./src/084-first-recurring.js",
-    "tree": "nodemon ./src/tree.js"
+    "tree": "nodemon ./src/tree.js",
+    "sll": "nodemon ./src/sll.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.0.0",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
   }
 }

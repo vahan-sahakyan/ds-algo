@@ -1,3 +1,5 @@
+const displayByExpress = require('../utils/displayByExpress');
+
 class Node {
   constructor(value) {
     this.left = null;
@@ -63,3 +65,4 @@ function traverse(node) {
   tree.right = node.right === null ? null : traverse(node.right);
   return tree;
 }
+displayByExpress(tree, 3001, 3);
