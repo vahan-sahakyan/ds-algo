@@ -1,4 +1,4 @@
-const displayByExpress = require('../utils/displayByExpress');
+const objlay = require('@vahan-sahakyan/objlay');
 
 class Node {
   constructor(value) {
@@ -18,4 +18,4 @@ const sll = new LinkedList(4);
 
 console.log(sll);
 
-displayByExpress(sll, 3000, 3, true);
+objlay(sll, 3000, 3, true);

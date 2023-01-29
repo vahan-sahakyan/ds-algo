@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@vahan-sahakyan/objlay@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@vahan-sahakyan/objlay/-/objlay-1.0.1.tgz#ec0407c8b640d4935a19c4f2f982d7b39944136d"
+  integrity sha512-y4+ug2X7R5tihB7WRYCnqb84lFLQR7TqhaIJCH4VDJ3iC1CZCgYHRtMsHb25fbDaJIz0cm1dUR33Q/pK3cSqsg==
+  dependencies:
+    express "^4.18.2"
+
 accepts@~1.3.8:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.8.tgz#0bf0be125b67014adcb0b0921e62db7bffe16b2e"
@@ -21,9 +28,9 @@ asynckit@^0.4.0:
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
 axios@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.0.0.tgz#16ded6096c1d37650db9f6a8d48a2f7c1bb58622"
-  integrity sha512-SsHsGFN1qNPFT5QhSoSD37SHDfGyLSW5AESmyLk2JeCMHv5g0I9g0Hz/zQHx2KNe0jGXh2q2hAm7OdkXm360CA==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.2.6.tgz#eacb6d065baa11bad5959e7ffa0cb6745c65f392"
+  integrity sha512-rC/7F08XxZwjMV4iuWv+JpD3E0Ksqg9nac4IIg6RwNuF0JTeWoCo/mBNG54+tNhhI11G3/VDRbdDQTs9hGp4pQ==
   dependencies:
     follow-redirects "^1.15.0"
     form-data "^4.0.0"

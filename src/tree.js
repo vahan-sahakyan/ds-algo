@@ -1,4 +1,4 @@
-const displayByExpress = require('../utils/displayByExpress');
+const objlay = require('@vahan-sahakyan/objlay');
 
 class Node {
   constructor(value) {
@@ -65,4 +65,4 @@ function traverse(node) {
   tree.right = node.right === null ? null : traverse(node.right);
   return tree;
 }
-displayByExpress(tree, 3001, 3);
+objlay(tree, 3001, 3);
