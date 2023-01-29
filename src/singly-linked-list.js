@@ -14,9 +14,8 @@ class LinkedList {
   }
 }
 
-//
 const sll = new LinkedList(4);
 
 console.log(sll);
 
-displayByExpress(sll, 3000, 3);
+displayByExpress(sll, 3000, 3, true);
