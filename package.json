@@ -14,7 +14,9 @@
     "tree": "nodemon ./src/tree.js",
     "sll": "nodemon ./src/singly-linked-list.js",
     "dll": "nodemon ./src/doubly-linked-list.js",
-    "graph": "nodemon ./src/graph.js"
+    "graph": "nodemon ./src/graph.js",
+    "recursion": "nodemon ./src/recursion.js",
+    "sort": "nodemon ./src/sort.js"
   },
   "author": "",
   "license": "ISC",
