@@ -45,15 +45,12 @@ class BinarySearchTree {
 }
 
 const tree = new BinarySearchTree();
-tree.insert(9);
-tree.insert(4);
-tree.insert(6);
-tree.insert(20);
-tree.insert(170);
-tree.insert(15);
-tree.insert(1);
+
+[9, 4, 6, 20, 170, 15, 1].forEach(n => {
+  tree.insert(n);
+});
+
 console.log(tree.lookup(9));
-// console.log(JSON.stringify(traverse(tree.root)));
 
 //       9
 //   4      20
@@ -65,4 +62,4 @@ function traverse(node) {
   tree.right = node.right === null ? null : traverse(node.right);
   return tree;
 }
-objlay(tree, 3001, 3);
+objlay(tree, 3001, 2, 0);
