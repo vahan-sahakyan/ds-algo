@@ -6,22 +6,45 @@ const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 //
 //
 //
+/**
+ *
+ * mergeSort function
+ *
+ * @param {number[]} array
+ * @returns number[]
+ */
 function mergeSort(array) {
   if (array.length === 1) return array;
-
-  // split array in into right and left
-  const middle = Math.floor(array.length / 2);
-  const left = array.slice(0, middle),
+  const middle = Math.floor(array.length / 2),
+    left = array.slice(0, middle),
     right = array.slice(middle);
-
-  console.log({ left, right });
   return merge(mergeSort(left), mergeSort(right));
 }
-function merge(L, R) {
-  // console.log({ L, R });
+/**
+ * merge function
+ * @param {number[]} left
+ * @param {number[]} right
+ * @returns number[]
+ */
+function merge(left, right) {
+  const result = [];
+  let leftIdx = 0;
+  let rightIdx = 0;
+  while (leftIdx < left.length && rightIdx < right.length) {
+    if (left[leftIdx] < right[rightIdx]) {
+      result.push(left[leftIdx]);
+      leftIdx++;
+    } else {
+      result.push(right[rightIdx]);
+      rightIdx++;
+    }
+  }
+  console.log(left, right);
+  return [...result, ...left.slice(leftIdx), ...right.slice(rightIdx)];
 }
 const result = mergeSort(numbers);
 
+console.log(...result);
 // for (n of result) console.log(n);
 //
 //
