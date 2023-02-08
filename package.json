@@ -16,7 +16,8 @@
     "dll": "nodemon ./src/doubly-linked-list.js",
     "graph": "nodemon ./src/graph.js",
     "recursion": "nodemon ./src/recursion.js",
-    "sort": "nodemon ./src/sort.js"
+    "sort": "nodemon ./src/sort.js",
+    "proto": "nodemon ./src/proto.js"
   },
   "author": "",
   "license": "ISC",
