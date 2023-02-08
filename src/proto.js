@@ -19,9 +19,9 @@ Car.prototype.display = function () {
  *
  * @returns new object
  */
-function _new() {
-  const NEW_OBJECT = Object.create(Car.prototype);
-  Car.apply(NEW_OBJECT, [...arguments].slice(1));
+function _new(Constructor) {
+  const NEW_OBJECT = Object.create(Constructor.prototype);
+  Constructor.apply(NEW_OBJECT, [...arguments].slice(1));
   return NEW_OBJECT;
 }
 
