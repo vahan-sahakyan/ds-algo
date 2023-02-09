@@ -43,9 +43,9 @@ function merge(left, right) {
   console.log(`[${left}]`.padEnd(30, ' '), `[${right}]`);
   return [...result, ...left.slice(leftIdx), ...right.slice(rightIdx)];
 }
+console.log(`[${numbers}]\n`);
 const result = mergeSort(numbers);
-
-console.log(...result);
+console.log(`\n[${result}]`);
 // for (n of result) console.log(n);
 //
 //
