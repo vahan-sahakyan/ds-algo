@@ -18,6 +18,7 @@ function mergeSort(array) {
   const middle = Math.floor(array.length / 2),
     left = array.slice(0, middle),
     right = array.slice(middle);
+  console.log(`------[${left}]`.padEnd(30, ' '), `------[${right}]`);
   return merge(mergeSort(left), mergeSort(right));
 }
 /**
@@ -39,7 +40,7 @@ function merge(left, right) {
       rightIdx++;
     }
   }
-  console.log(left, right);
+  console.log(`[${left}]`.padEnd(30, ' '), `[${right}]`);
   return [...result, ...left.slice(leftIdx), ...right.slice(rightIdx)];
 }
 const result = mergeSort(numbers);
