@@ -16,7 +16,7 @@ Car.prototype.display = function () {
 };
 
 /**
- *
+ * @important Constructor must be the functional implementation
  * @returns new object
  */
 function _new(Constructor) {
