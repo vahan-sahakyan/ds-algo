@@ -17,7 +17,8 @@
     "graph": "nodemon ./src/graph.js",
     "recursion": "nodemon ./src/recursion.js",
     "sort": "nodemon ./src/sort.js",
-    "proto": "nodemon ./src/proto.js"
+    "proto": "nodemon ./src/proto.js",
+    "dp": "nodemon ./src/dp.js"
   },
   "author": "",
   "license": "ISC",
