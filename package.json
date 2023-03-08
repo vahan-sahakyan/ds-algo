@@ -18,7 +18,8 @@
     "recursion": "nodemon ./src/recursion.js",
     "sort": "nodemon ./src/sort.js",
     "proto": "nodemon ./src/proto.js",
-    "dp": "nodemon ./src/dp.js"
+    "dp": "nodemon ./src/dp.js",
+    "leet": "nodemon ./src/leet.js"
   },
   "author": "",
   "license": "ISC",
